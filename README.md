@@ -13,10 +13,20 @@ How To Implement CQRS with MediatR :
 
 
 Steps:
+
+
 1	. Create forder CQRS					
+
+
 2  .Create forder Commands for All Reads APIS  ,for each command create a class and create the interface IRequest<T> 
+
+
 3  .Create folder Queies for All UPdate,Create Or Deletes ,For Each of them Create a class and the Interface  IRequest <T> 
+
+
 4  .Create folder Handlers for all the commands and Queries ,For each of them create a class and implement the IRequestHandler<T> can Call Other 
+
+
 
 
 ---------------------------------------------------------
