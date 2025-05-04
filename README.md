@@ -10,6 +10,8 @@ TO do SO :
 How To Implement CQRS with MediatR :
 1. dotnet add package MediatR
 2. dotnet add package MediatR.Extensions.Microsoft.DependencyInjection					
+
+
 Steps:
 1	. Create forder CQRS					
 2  .Create forder Commands for All Reads APIS  ,for each command create a class and create the interface IRequest<T> 
